@@ -15,6 +15,7 @@ header ul {
     align-items: center;
     margin-left: 14%;
     border-style: solid;
+    list-style: none;
 }
 header a{
     text-decoration: none;
