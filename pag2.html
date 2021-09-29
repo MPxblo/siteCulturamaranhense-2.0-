@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <!-- links acima que dão acesso ao bootstrap -->
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./form.css"><!-- link de css de fomulario que eu ja tinha, não lembro a fonte -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturalizando</title>
+</head>
+<body> 
+  <header class="cabecalho"> <!-- Cabeçalho e navegação da página -->
+    <ul class="atalhos">
+      <p><a href="#"><img id="bandeira" class="bandeira" src="./img/bandeira-do-maranhao-estado-4.png" height="200px" width="200px" alt="Bandeira do Maranhão"></a></p>
+      <p><a href="./index.html" >Cultura</a></p>
+      <p><a href="./index.html" >Lençóis</a></p>
+      <p><a href="./index.html" >Ilha do Amor</a></p>
+      <p><a href="./index.html" >Culinaria</a></p>
+      <p><a href="#">Contato</a></p>
+    </ul>
+  </header>
+  <div class="cont">
+  <div> <!-- Sessão do video -->
+        <h2 class="titulooo">Ilha bela Carlinhos Veloz </h2>
+        <video width="500px" controls>
+            <source src="./videoplayback.mp4" type="video/mp4">
+            <!-- link do video: https://www.youtube.com/watch?v=37LBsd8t26I -->
+        </video>
+    </div>
+    <div class="contato">
+      <h2 class="titulooo">Entre em Contato</h2>
+        <div id="contato" class="formulario">
+            <div class="container">  
+                <h3 class="titulo">Informe-nos aqui!</h3>
+                <form action="#" class="form-contact" method="post" tabindex="1">  
+                  <label class="label" for="Nome">Nome</label>
+                   <input type="text" id="nome" class="form-contact-input" name="nome" placeholder="Nome" required />  
+                   <label class="label" for="email">Email</label>
+                   <input type="email" id="email" class="form-contact-input" name="email" placeholder="Email" required />  
+                   <label for="tel" class="label">Telefone</label>
+                   <input type="tel" id="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
+                   <label class="label" for="mensagem">Sua mensagem</label>
+                   <textarea class="form-contact-textarea" id="mensagem" name="mensagem" placeholder="Deixe uma mensagem" required></textarea>  
+                   <button type="submit" class="form-contact-button">Enviar</button>  
+                </form>  
+              </div>  
+        </div>
+        </div>
+    <div role="main" class="perguntaserespostas" >
+        <h2 class="titulooo">Formulariozinho(opcional)</h2>
+        <div class="contato">
+            <div id="contato" class="formulario">
+                <div class="container">  
+                    <form action="#" class="form-contact" method="post" tabindex="1">  
+                      <label for="gostariade viajar" class="titulo">1.Gostaria de viajar para o Maranhão?</label>
+                       <textarea id="gostariadeviajar" class="form-contact-textarea" name="gostariadeviajar" placeholder="Escreva qual lugar gostaria de viajar" ></textarea>  
+                        <form action="#" class="form-contact" method="post" tabindex="1">  
+                          <label for="interesses" class="titulo">2.Se viajou oque da cultura vc achou mais interassante?</label>
+                           <textarea  id="interesses" class="form-contact-textarea" name="interesses" placeholder="Escreva sua opinião sobre a cultura" ></textarea>  
+                            <form action="#" class="form-contact" method="post" tabindex="1">  
+                               <label for="maisgostou" class="titulo">3.Qual lugar você mais gostou do Maranhão?</label>
+                               <textarea id="maisgostou" class="form-contact-textarea" name="maisgostou" placeholder="Escreva o lugar que mais lhe chamou a atenção" ></textarea>  
+                               <button type="submit" class="form-contact-button">Enviar</button>  
+                             
+                </div>      
+            </div>
+            </div>
+    </div>
+
+      </div>
+      <footer>
+        <div class="rodape">
+          <img class="rodapeimg" src="./img/Flag_map_of_Maranhao.png" alt="Estado do Maranhão com Bandeira">
+          <a href="#bandeira">
+            <p align="center" class="titulo">Volte ao Inicio</p>
+          </a>
+        </div>
+      </footer>
+  
+</body>
+</html>

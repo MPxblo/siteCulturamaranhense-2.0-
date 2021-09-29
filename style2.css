@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    box-shadow: 5px 3px 0px rgb(159, 159, 159);
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 14%;
+    border-style: solid;
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.bandeira {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.atalhos { 
+    padding: 90px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.divprincipal {
+    margin-top: 2px;
+    height: 420px;
+    background-color: deepskyblue;
+}
+.tituloPrincipal {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-family: Verdana,Arial,"Helvetica Neue",Helvetica,sans-serif !important;
+    margin-bottom: 40px;
+    padding: 25px;
+}
+.textoPrincipal {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid lightgray;
+}
+.tituloL {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding: 2%;
+    margin-left: 12%;
+}
+.imagem1 {
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 400px;
+    width: 700px;
+    margin-right: 20px;
+}
+.aaa {
+    text-align: justify;
+    padding: 43px;
+
+}
+.divis {
+    display: flex;
+}
+.tituloR {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding: 2%;
+    margin-left: 58%;
+}
+.bbb {
+    text-align: justify;
+    padding: 130px;
+
+}
+.imagem2 {
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 370px;
+    width: 600px;
+    margin-left: 20px;
+}
+.ccc {
+    text-align: justify;
+    padding: 120px;
+}
+.rodape {
+    margin-top: 4%;
+    background-color: rgb(255, 106, 106);
+    height: 300px;
+}
+.cont {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 13px;
+}
+.titulooo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 27%;
+    padding: 2%;
+}
+.label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+}
+video {
+    margin-left: 27%;
+    width: 500px;
+}
+.rodapeimg {
+    width: 180px;
+    margin-left: 45%;
+    padding: 20px;
+
+}
+@media (max-width:1024px) {
+    header {
+        background-color: rgb(255, 255, 255);
+        height: 380px;
+        box-shadow: 5px 3px 0px rgb(159, 159, 159);
+    }
+    header ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5%;
+        border-style: solid;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-right: 7px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .bandeira {
+        border-radius: 50%;
+        margin-right: 30px;
+    }
+    .atalhos { 
+        padding: 90px;
+    }
+    .imagem1, .imagem2 {
+        width: 400px;
+        height: 350px;
+    }
+    .bbb, .ccc, .aaa {
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 4%;
+        border-radius: 5px;
+        font-size: 13px;
+        margin-top: 40px;
+    }   
+}
+
+@media screen and (max-width: 480px) {
+    .bandeira {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        padding: 2px;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    header {
+        height: 40px;
+    }
+    header ul {
+        margin-left: 0%;
+    }
+    header a {
+        margin-left: 0%;
+        font-size: 14px;
+    }
+    .atalhos { 
+        padding: 0%;
+    }
+    .tituloPrincipal {
+        font-size: 30px;
+    }
+    .textoPrincipal {
+        font-size: 15px;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 10px;
+    }
+    h2 {
+        text-align: center;
+        padding: 5%;
+    }
+    .bbb, .ccc, .aaa {
+        border: solid 2px rgb(87, 87, 87);
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 3%;
+        border-radius: 5px;
+    }
+    .tituloL, .tituloR {
+        padding: 0%;
+        margin-left: 0%;
+        margin-top: 13px;
+        margin-bottom: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .imagem1, .imagem2 {
+        display: none;
+    }
+    .rodapeimg {
+        width: 150px;
+        margin-left: 34%;
+    }
+    .cont {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .titulooo {
+        padding: 0%;
+        text-align: center;   
+        margin-left: 0%; 
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    video {
+        margin-left: 30px;
+        padding: 0%;
+        width: 300px;
+    }
+    .titulo {
+        font-size: 15px;
+    }
+
+}
