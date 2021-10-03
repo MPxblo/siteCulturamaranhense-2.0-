@@ -112,6 +112,7 @@ header a:hover {
     position: absolute;
     top: 30px;
     right: 390px;
+    display: none;
 }
 video { 
     margin: 5% 23%;
