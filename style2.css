@@ -7,15 +7,20 @@
 header {
     background-color: rgb(255, 255, 255);
     height: 380px;
-    box-shadow: 5px 3px 0px rgb(159, 159, 159);
+    box-shadow: 0px 3px 0px 0px rgb(159, 159, 159);
+}
+.cont {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
 }
 header ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 14%;
     border-style: solid;
     list-style: none;
+    margin:10%;
 }
 header a{
     text-decoration: none;
@@ -24,243 +29,174 @@ header a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-left: 20px;
+
 }
-.bandeira {
+header a:hover {
+    color: #31e7ff;
+}
+#bandeira {
     border-radius: 50%;
-    margin-right: 30px;
-}
-.atalhos { 
-    padding: 90px;
-}
-a {
-    color: black;
-    text-decoration: none;
 }
 .divprincipal {
-    margin-top: 2px;
+    margin-top: 3px;
+    padding: 20px 0;
     height: 420px;
     background-color: deepskyblue;
+    width: 100%;
 }
 .tituloPrincipal {
     color: white;
     text-align: center;
     font-size: 65px;
     font-family: Verdana,Arial,"Helvetica Neue",Helvetica,sans-serif !important;
-    margin-bottom: 40px;
-    padding: 25px;
 }
 .textoPrincipal {
     text-align: center;
     font-size: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 60px;
-    margin-bottom: 40px;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     border: 3px solid lightgray;
-}
-.tituloL {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    padding: 2%;
-    margin-left: 12%;
-}
-.imagem1 {
-    width: 50%;
-    border-radius: 20px;
-    margin-top: 15px;
-    margin-left: 20px;
-    height: 400px;
-    width: 700px;
-    margin-right: 20px;
-}
-.aaa {
-    text-align: justify;
-    padding: 43px;
-
+    margin: 10% 15%;
 }
 .divis {
     display: flex;
+    flex-direction: row;
+    margin: 20px 0;
 }
-.tituloR {
+.titulo {
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
-    padding: 2%;
-    margin-left: 58%;
+    margin: 20px 0;
 }
-.bbb {
-    text-align: justify;
-    padding: 130px;
-
-}
-.imagem2 {
-    width: 50%;
+.imagemd {
+    width: 45%;
     border-radius: 20px;
-    margin-top: 15px;
-    margin-right: 15px;
-    height: 370px;
-    width: 600px;
-    margin-left: 20px;
+    height: 300px;
+    position: relative;
 }
-.ccc {
+.aaa {
+    position: relative;
     text-align: justify;
-    padding: 120px;
+    max-height: 300px;
+    font-size: 13px;
+    padding: 50px;
+}
+.divis a {
+    text-decoration: none;
+    color: #000000;
+}
+.divis  a:hover {
+    color: #4dc6ff;
 }
 .rodape {
-    margin-top: 4%;
     background-color: rgb(255, 106, 106);
     height: 300px;
 }
-.cont {
-    margin-left: 13%;
-    margin-right: 13%;
+.rodape a {
+    text-decoration: none;
+    color: #000000;
 }
-.titulo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.rodape  a:hover {
+    color: #4dc6ff;
+}
+.rodape p {
     font-size: 30px;
-    margin-top: 13px;
+    text-align: center;
+}
+.rodapeimg {
+    width: 180px;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 390px;
+}
+video { 
+    margin: 5% 23%;
+    width: 500px;
 }
 .titulooo {
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    margin-left: 27%;
-    padding: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px 0;
 }
 .label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+}
+.contato {
+    border: 3px solid #000000;
+    border-radius: 25px;
+}
 
-}
-video {
-    margin-left: 27%;
-    width: 500px;
-}
-.rodapeimg {
-    width: 180px;
-    margin-left: 45%;
-    padding: 20px;
-
-}
-@media (max-width:1024px) {
+@media screen and (max-width: 480px) {
     header {
-        background-color: rgb(255, 255, 255);
-        height: 380px;
-        box-shadow: 5px 3px 0px rgb(159, 159, 159);
-    }
-    header ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: 5%;
-        border-style: solid;
+     height: 50px;
+     box-shadow:none;
     }
     header a{
         text-decoration: none;
         color: rgb(0, 0, 0);
-        margin-right: 7px;
+        margin-right: 0px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 15px;
-        margin-left: 20px;
-    }
-    .bandeira {
-        border-radius: 50%;
-        margin-right: 30px;
-    }
-    .atalhos { 
-        padding: 90px;
-    }
-    .imagem1, .imagem2 {
-        width: 400px;
-        height: 350px;
-    }
-    .bbb, .ccc, .aaa {
-        margin-left: 4%;
-        margin-right: 4%;
-        padding: 4%;
-        border-radius: 5px;
-        font-size: 13px;
-        margin-top: 40px;
-    }   
-}
+        font-size: 10px;
 
-@media screen and (max-width: 480px) {
-    .bandeira {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-        padding: 2px;
-        margin-left: 8px;
-        margin-top: 5px;
-    }
-    header {
-        height: 40px;
     }
     header ul {
-        margin-left: 0%;
+        margin: 0;
     }
-    header a {
-        margin-left: 0%;
-        font-size: 14px;
+    #bandeira {
+        width: 40px;
+        height: 40px;
+        margin-top: 3px;
     }
-    .atalhos { 
-        padding: 0%;
-    }
-    .tituloPrincipal {
-        font-size: 30px;
-    }
-    .textoPrincipal {
-        font-size: 15px;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 10px;
-    }
-    h2 {
-        text-align: center;
-        padding: 5%;
-    }
-    .bbb, .ccc, .aaa {
-        border: solid 2px rgb(87, 87, 87);
-        margin-left: 4%;
-        margin-right: 4%;
-        padding: 3%;
-        border-radius: 5px;
-    }
-    .tituloL, .tituloR {
-        padding: 0%;
-        margin-left: 0%;
-        margin-top: 13px;
-        margin-bottom: 17px;
-    }
-    p {
-        font-size: 15px;
-    }
-    .imagem1, .imagem2 {
-        display: none;
-    }
-    .rodapeimg {
-        width: 150px;
-        margin-left: 34%;
+    .divprincipal {
+        margin-top: 3px;
+        padding: 5px 0;
+        height: 300px;
+        background-color: deepskyblue;
+        width: 100%;
     }
     .cont {
-        margin-left: 3%;
-        margin-right: 3%;
+        width: 375px;
+        margin: 0 auto;
+        position: relative;
     }
-    .titulooo {
-        padding: 0%;
-        text-align: center;   
-        margin-left: 0%; 
-        font-size: 20px;
-        margin-top: 20px;
+    .tituloPrincipal {
+        font-size: 40px;
+
     }
-    video {
-        margin-left: 30px;
-        padding: 0%;
-        width: 300px;
+    .divprincipal {
+        margin-top: 3px;
+        padding: 20px 0;
+        height: 420px;
+        background-color: deepskyblue;
+        width: 100%;
+    }
+    .textoPrincipal{
+        font-size: 17px;
+    }
+    .aaa {
+        border: 3px solid #000000;
+        border-radius: 20px;
+        min-height: 350px;
+        padding: 25px 35px;
+    }
+    .imagemd {
+        display: none;
     }
     .titulo {
-        font-size: 15px;
+        font-size: 30px;    
+    }
+    .titulooo {
+        font-size: 20px;
+    }
+    video {
+        width: 200px;
     }
 
 }
